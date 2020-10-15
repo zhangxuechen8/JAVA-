@@ -16,6 +16,8 @@ public int getSpeed(){
 public void setSpeed(int speed){
   	this.speed=speed;
   }
+  
+  
 2.给HardDisk添加amount,price对象，给HardDisk对象添加方法
 public int getAmount(){
    	return amount;
@@ -23,6 +25,8 @@ public int getAmount(){
 public void setAmount(int amount){
    	this.amount=amount;
    }
+   
+   
 3.给PC添加cpu，HD，size,name对象，给PC对象添加方法
 public void setCPU(CPU cpu){
    	this.cpu=cpu;
@@ -30,6 +34,8 @@ public void setCPU(CPU cpu){
 public void setHardDisk(HardDisk HD){
    	this.HD=HD;
 }
+
+
 核心：CPU cpu=new CPU();
 		HardDisk HD=new HardDisk();
 		cpu.setSpeed(2200);
